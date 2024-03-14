@@ -85,7 +85,7 @@ class WeatherApp:
 
     def get_weather(self):
         try:
-            API_key = 'b259c9987a363cd81017016828c59e5a'
+            API_key = 'YOUR API_KEY'
             city = self.text_input.get()
 
             geolocator = Nominatim(user_agent='weather')
